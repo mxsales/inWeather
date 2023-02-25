@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  max-width: 100%;
+}
+input{
+  all: unset;
+}
+.bg {
+  font-family: 'Roboto Serif', serif;
+  height: 100vh;
+  background-color: #786a8d;
+  background-image: linear-gradient(
+    180deg,
+    #786a8d 13%,
+    #e1c2b3 71%,
+    #ec9c5d 100%
+  );
+}
+.top-side{
+  display: flex;
+  padding: 40px 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  backdrop-filter: blur(15px);
+  padding: 40px 64px;
+  border-radius: 20px;
+  max-width: fit-content;
+  margin: auto;
+}
+.conteudo-principal{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+.texto-principal{
+  color: #f7f7f7;
+  font-size: 1.5rem;
+}
+.input-cidade{
+  padding: 20px;
+  width: 280px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 32px;
+  font-size: 1.5rem;
+  background: transparent;
+  color: #f7f7f7;
+}
+.input-cidade::placeholder{
+  color: #dedede;
+  font-size: .875rem;
+  text-align: center;
+}
+footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+  color: #dedede;
+  font-weight: 500;
+}
+footer p{
+  font-size: 1rem;
+}
