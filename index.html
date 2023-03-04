@@ -24,14 +24,32 @@
     <div class="conteudo-principal">
       <p class="texto-principal">Atualmente em</p>
       <input type="text" class="input-cidade" placeholder="Digite o nome da cidade desejada" spellcheck="false">
-      <p class="texto-principal">o clima é: <span></span></p>
+      <p class="texto-principal">o clima é: <span id="status"></span></p>
     </div>
-
-  </main>
+    <div class="info">
+      <div class="info-item">
+        <img src="./img/temp.svg" alt="">
+        <p>Temp: <span id="temp"></span></p>
+      </div>
+      <div class="info-item">
+        <img src="./img/feels.svg" alt="">
+        <p>Sensação: <span id="feels"></span></p>
+      </div>
+      <div class="info-item">
+        <img src="./img/hum.svg" alt="">
+        <p>Humidade: <span id="hum"></span></p>
+      </div>
+      <div class="info-item">
+        <img src="./img/country.svg" alt="">
+        <p>País:</p>
+        <img src="" id="country" crossorigin="anonymous"></img>
+      </div>
+    </div>
+  </main> 
   <footer>
     <p>inWeather&copy - Alguns direitos reservados</p>
   </footer>
-  <script src="./js/script.js"></script>
+  <script src="./js/script.js" type="module"></script>
 </body>
 
 </html>
